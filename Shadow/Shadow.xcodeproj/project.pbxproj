@@ -15,6 +15,8 @@
 		4C603B0F1CC09C880080445C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C603B0D1CC09C880080445C /* LaunchScreen.storyboard */; };
 		4C603B1A1CC09C880080445C /* ShadowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C603B191CC09C880080445C /* ShadowTests.m */; };
 		4C603B251CC09C880080445C /* ShadowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C603B241CC09C880080445C /* ShadowUITests.m */; };
+		4C603B351CC0E4AF0080445C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C603B331CC0E4AF0080445C /* SecondViewController.m */; };
+		4C603B361CC0E4AF0080445C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C603B341CC0E4AF0080445C /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		4C603B201CC09C880080445C /* ShadowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C603B241CC09C880080445C /* ShadowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowUITests.m; sourceTree = "<group>"; };
 		4C603B261CC09C880080445C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C603B321CC0E4AF0080445C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4C603B331CC0E4AF0080445C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4C603B341CC0E4AF0080445C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				4C603B031CC09C880080445C /* AppDelegate.m */,
 				4C603B051CC09C880080445C /* ViewController.h */,
 				4C603B061CC09C880080445C /* ViewController.m */,
+				4C603B321CC0E4AF0080445C /* SecondViewController.h */,
+				4C603B331CC0E4AF0080445C /* SecondViewController.m */,
+				4C603B341CC0E4AF0080445C /* SecondViewController.xib */,
 				4C603B081CC09C880080445C /* Main.storyboard */,
 				4C603B0B1CC09C880080445C /* Assets.xcassets */,
 				4C603B0D1CC09C880080445C /* LaunchScreen.storyboard */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C603B361CC0E4AF0080445C /* SecondViewController.xib in Resources */,
 				4C603B0F1CC09C880080445C /* LaunchScreen.storyboard in Resources */,
 				4C603B0C1CC09C880080445C /* Assets.xcassets in Resources */,
 				4C603B0A1CC09C880080445C /* Main.storyboard in Resources */,
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C603B351CC0E4AF0080445C /* SecondViewController.m in Sources */,
 				4C603B071CC09C880080445C /* ViewController.m in Sources */,
 				4C603B041CC09C880080445C /* AppDelegate.m in Sources */,
 				4C603B011CC09C880080445C /* main.m in Sources */,
@@ -416,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Shadow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bfrj.Shadow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Shadow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bfrj.Shadow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +510,7 @@
 				4C603B2B1CC09C880080445C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C603B2C1CC09C880080445C /* Build configuration list for PBXNativeTarget "ShadowTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				4C603B2E1CC09C880080445C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C603B2F1CC09C880080445C /* Build configuration list for PBXNativeTarget "ShadowUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				4C603B311CC09C880080445C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

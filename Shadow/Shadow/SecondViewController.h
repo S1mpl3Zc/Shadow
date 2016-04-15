@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SecondViewController.h
 //  Shadow
 //
 //  Created by S1mpl3 on 16/4/15.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface SecondViewController : UIViewController
 
 @end
-
-    
